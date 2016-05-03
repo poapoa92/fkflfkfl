@@ -5,6 +5,8 @@ class CreatePosts < ActiveRecord::Migration
       
       t.string "title"
       t.string "content"
+      t.string "sender"
+      t.string "receiver"
 
 
       t.timestamps null: false
